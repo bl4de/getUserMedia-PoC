@@ -1,0 +1,33 @@
+canvas {
+    width: 160px;
+    height: 120px;
+    -webkit-transition: all 1s ease-in 0s;
+}
+
+.huerotate {
+    -webkit-filter: hue-rotate(80deg);
+}
+
+.invert {
+    -webkit-filter: invert(90%);
+}
+
+.saturate {
+    -webkit-filter: saturate(90%);
+}
+
+.grayscale {
+    -webkit-filter: grayscale(100%);
+}
+
+.sepia {
+    -webkit-filter: sepia(100%);
+}
+
+.blur {
+    -webkit-filter: blur(4px);
+}
+
+.contrast {
+    -webkit-filter: contrast(1500%);
+}
